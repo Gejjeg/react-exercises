@@ -10,7 +10,7 @@ const greeting = (name) => {
 }
 
 // Exercise 3
-function sum (a, b) {
+function sum(a, b) {
     return (
         <h2>{a + b}</h2>
     )
