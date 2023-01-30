@@ -1,17 +1,6 @@
-// Excercise 1
+import React from "react";
+import ReactDOM from "react-dom";
+
 const hello = <h1>"Hello, World!"</h1>;
 
-
-// Exercise 2
-const greeting = (name) => {
-    return (
-        <h1>Hello, {name}</h1>
-    )
-}
-
-// Exercise 3
-function sum(a, b) {
-    return (
-        <h2>{a + b}</h2>
-    )
-}
+ReactDOM.render(hello, document.getElementById("root"));
